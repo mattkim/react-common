@@ -1,0 +1,59 @@
+@import url("font.css");
+@import url("button.css");
+@import url("forms.css");
+@import url("spacing.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.fullscreen {
+  min-height:100vh;
+}
+
+.root {
+}
+
+.container {
+  font-size: 1em;
+  padding: 10px;
+}
+
+.headerBackground {
+    background-color: #00a3cc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #EEEEEE;
+  padding-top: 5px;
+}
+
+.flatRight {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.flatLeft {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a,
+a label {
+  cursor: pointer;
+}
